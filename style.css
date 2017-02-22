@@ -1,0 +1,28 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    overflow: hidden;
+}
+
+#matrix {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    max-width: 100%;
+    z-index:-100;
+}
+
+#container{
+    z-index:100;
+    width:300px;
+    height:300px;
+    background-color:black;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -150px 0 0 -150px;
+}

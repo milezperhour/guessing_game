@@ -1,3 +1,6 @@
+/*
+ * Number selection logic
+ */
 var the_number=null;
 function pick_number(){
     var random_number;
