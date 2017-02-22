@@ -47,6 +47,14 @@ body {
     top:40px;
 }
 
+#submitButton{
+    color:#19FF19;
+    background-color:black;
+    border:none;
+    cursor:pointer;
+    box-shadow: 0 0 5px 2px #19FF19;
+}
+
 h3{
     color: #19FF19;
     font-family: 'Source Code Pro', monospace;

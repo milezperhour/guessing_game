@@ -27,3 +27,4 @@ function make_guess(){
         document.getElementById('guess_input').value = '';
     }
 }
+
