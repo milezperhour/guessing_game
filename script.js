@@ -4,7 +4,7 @@
 var the_number=null;
 function pick_number(){
     var random_number;
-    random_number = Math.floor(Math.random() * 10) + 1;
+    random_number = Math.floor(Math.random() * 100) + 1;
     the_number = random_number;
     return random_number;
 }
