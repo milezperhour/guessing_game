@@ -4,16 +4,17 @@
     <title>Guess</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
 </head>
 <body onload="pick_number();">
 
 <canvas id="matrix"></canvas>
 
 <div id="container">
-<input type="text" id="guess_input" placeholder="Guess a number (1-10)">
-<button onclick="make_guess();">SUBMIT</button>
-
-<div id ="response_div"></div>
+    <h3>Please guess a number.</h3>
+    <input type="text" id="guess_input" placeholder="Guess a number (1-10)">
+    <button onclick="make_guess();">SUBMIT</button>
+    <div id ="response_div"></div>
 </div>
 
 <script src="matrix.js"></script>
