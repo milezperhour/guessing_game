@@ -37,6 +37,11 @@ body {
 
 #guess_input{
     width:150px;
+    background-color:black;
+    border:none;
+    box-shadow: 0 0 5px 2px #19FF19;
+    color:#19FF19;
+    font-family: 'Source Code Pro', monospace;
 }
 
 #response_div{
@@ -53,6 +58,7 @@ body {
     border:none;
     cursor:pointer;
     box-shadow: 0 0 5px 2px #19FF19;
+    margin-left:10px;
 }
 
 h3{
